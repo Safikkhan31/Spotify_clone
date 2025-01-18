@@ -18,16 +18,71 @@
     <div class="container">
         <div class="songlist">
             <h1>Best of ncs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="0" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="1" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="2" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="3" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="4" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="5" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="6" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="7" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="8" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="song">
+                    <span class="songName">Let me Love you</span>
+                    <span class="songlistPlay"><span class="timeStamp">5:30 <i id="9" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+            </div>
         </div>
         <div class="songbanner"></div>
     </div>
 
     <div class="bottom">
-        <input type = "range" name = "range" id = "myProgressBar" min="0" man="100">
+        <input type = "range" name = "range" id = "myProgressBar" min="0" man="100" value="0">
         <div class="icon">
-            <i class="fa-solid fa-2x fa-backward-step"></i>
-            <i class="fa-solid fa-2x fa-play"></i>
-            <i class="fa-solid fa-2x fa-forward-step"></i>
+            <i id="previus" class="fa-solid fa-2x fa-backward-step"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-2x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="43px" alt="playing" id="gif"><span id="masterSongName">let me love you</span>
         </div>
     </div>
 
